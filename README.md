@@ -1,4 +1,4 @@
-This is my Portfolio 
+This is my Portfolio.  
 Deploy 👉 https://abhinay-kushwaha.netlify.app/
 Using React & tailwind CSS
 
