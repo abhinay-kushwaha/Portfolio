@@ -1,5 +1,5 @@
 This is my Portfolio.  
-Deploy 👉 https://abhinay-kushwaha.netlify.app/  
+Deploy 👉 https://abhinay-kushwaha-portfolio.netlify.app/ 
 Using React & tailwind CSS
 
 
