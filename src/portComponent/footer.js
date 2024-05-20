@@ -5,16 +5,23 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaRegCopyright } from "react-icons/fa6";
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 const Footer = () => {
+  useEffect(() => {
+    AOS.init();
+}, []);
     return (
               <>
       <footer className='drop-shadow-2xl bg-[#cccfca] border-[#ecebeb] border-t-4' >
               <div className=' p-2 flex flex-col sm:flex-row justify-evenly items-center '>
-              <div className='font-serif p-2'>
+              <div  data-aos="flip-up" className='font-serif p-2'>
                 <h1 className='font-bold sm:text-4xl text-2xl  text-[#2d4750]'>Get in touch</h1>
                 <p className='text-[#2d4750]'>“Great web design without functionality <br/> is like a sports car with no engine.”</p>
               </div>
-                <div className='flex gap-5 m-3 '>
+                <div   className='flex gap-5 m-3 '>
                  <a href='https://www.youtube.com/@abhi_coding_' className=''><FaYoutube  className='text-4xl hover:animate-ping '/></a>
                  <a href='https://www.instagram.com/abhi_coding_?igsh=NDdsMGdncm1kdnEz'> <FaSquareInstagram   className='text-4xl hover:animate-ping'/></a>
                  <a href='https://www.linkedin.com/in/abhinay-kushwaha-78b767285'><FaXTwitter  className='text-4xl hover:animate-ping'/></a>
