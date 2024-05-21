@@ -9,6 +9,12 @@ const Navbar =() => {
     setMenuOpen(!isMenuOpen);
   };
 
+
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   
   return(
 <>
@@ -23,8 +29,7 @@ const Navbar =() => {
            <Link to='/about' ><li className="p-1   rounded-md hover:bg-slate-400 " href="#">About</li></Link>
            <Link to='/skills' ><li className="p-1   rounded-md hover:bg-slate-400 " href="#">Skills</li></Link>
            <Link to='/projects' ><li className="p-1   rounded-md hover:bg-slate-400 " href="#">Projects</li></Link>
-           {/* <Link to='/projects' ><li className="p-1   rounded-md hover:bg-slate-400 " href="#"> Experience</li></Link> */}
-           {/* <Link to='/projects' ><li className="p-1   rounded-md hover:bg-slate-400 " href="#">  Resume</li></Link> */}
+          
            <Link to='/contact' ><li className="p-1   rounded-md hover:bg-slate-400 " href="#">Contact</li></Link>
         </ul>
       </div>
@@ -34,13 +39,12 @@ const Navbar =() => {
       <div className=" flex justify-end w-full  relative top-0 font-bold font-serif ">
       <div id="menu-dropdown" style={{ display: isMenuOpen ? 'block' : 'none' }} className="bg-white text-black  sm:hidden   p-5  rounded " >
         <ul className="  flex flex-col   gap-1 w-fit ">
-           <Link to='/home' ><li className="p-1  bg-white rounded-md hover:bg-slate-400 " href="#">Home</li></Link>
-           <Link to='/about' ><li className="p-1 bg-white  rounded-md hover:bg-slate-400 " href="#">About</li></Link>
-           <Link to='/skills' ><li className="p-1 bg-white  rounded-md hover:bg-slate-400 " href="#">Skills</li></Link>
-           <Link to='/projects' ><li className="p-1 bg-white  rounded-md hover:bg-slate-400 " href="#">Projects</li></Link>
-           {/* <Link to='/projects' ><li className="p-1 bg-white  rounded-md hover:bg-slate-400 " href="#"> Experience</li></Link> */}
-           {/* <Link to='/projects' ><li className="p-1 bg-white  rounded-md hover:bg-slate-400 " href="#">  Resume</li></Link> */}
-           <Link to='/contact' ><li className="p-1 bg-white  rounded-md hover:bg-slate-400 " href="#">Contact</li></Link>
+           <Link  onClick={closeMenu} to='/home' ><li className="p-1  bg-white rounded-md hover:bg-slate-400 " href="#">Home</li></Link>
+           <Link  onClick={closeMenu} to='/about' ><li className="p-1 bg-white  rounded-md hover:bg-slate-400 " href="#">About</li></Link>
+           <Link  onClick={closeMenu} to='/skills' ><li className="p-1 bg-white  rounded-md hover:bg-slate-400 " href="#">Skills</li></Link>
+           <Link  onClick={closeMenu} to='/projects' ><li className="p-1 bg-white  rounded-md hover:bg-slate-400 " href="#">Projects</li></Link>
+  
+           <Link  onClick={closeMenu} to='/contact' ><li className="p-1 bg-white  rounded-md hover:bg-slate-400 " href="#">Contact</li></Link>
         </ul>
       </div>
       </div>
