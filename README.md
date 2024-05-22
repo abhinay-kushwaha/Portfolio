@@ -3,7 +3,8 @@ Deploy 👉 https://portfolio-kappa-blue-17.vercel.app/
 Deploy 👉 https://abhinay-kushwaha-portfolio.netlify.app/ 
 Using React & tailwind CSS
 
-![React App Screenshot](https://github.com/yourusername/yourrepository/blob/main/React%20App%20-%20Google%20Chrome%2015-May-24%204_08_54%20PM.png)
+![React App Screenshot](React App - Google Chrome 15-May-24 4_08_54 PM.png)
+
 
 
 
