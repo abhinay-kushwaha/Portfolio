@@ -1,4 +1,5 @@
 This is my Portfolio.  
+Deploy 👉 https://portfolio-kappa-blue-17.vercel.app/
 Deploy 👉 https://abhinay-kushwaha-portfolio.netlify.app/ 
 Using React & tailwind CSS
 
