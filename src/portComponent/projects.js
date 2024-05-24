@@ -17,7 +17,7 @@ const Projects = ()=>{
 </div>
 <div data-aos="fade-left" className="flex flex-col  justify-start items-center    gap-10 w-80 h-96 overflow-y-scroll p-8 m-5 shadow-2xl ">
   <div><img className="hover:scale-105 w-60 sm:w-96" src="https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/59/18/t-i-1639997686-gaming-themed-to-do-list_ver_1.jpeg"/></div>
-   <div className="hover:scale-105 "><h1 className="font-bold text-2xl">Todo List</h1><br/><p>Bat Ball Stump (it is just like Rock paper Scissors) is an intransitive hand game, usually played between two people, in which each player simultaneously forms one of three shapes . These shapes are "Bat" , "Ball" , and "Stump". </p></div>
+   <div className="hover:scale-105 "><h1 className="font-bold text-2xl">Todo List</h1><br/><p>`A todo list is just a list of things you have todo. That means basically anything and everything can be on your todo list—but just because you've written your to-dos down doesn't mean your todo list is actually useful. Effectively tracking when your work is due can help you prioritize and get great work done.` </p></div>
 </div>
 <div data-aos="fade-right" className="flex flex-col  justify-start items-center    gap-10 w-80 h-96 overflow-y-scroll p-8 m-5 shadow-2xl ">
   <div><img className="hover:scale-105 w-60 sm:w-96" src="https://st2.depositphotos.com/1001941/6155/v/950/depositphotos_61557439-stock-illustration-cricket-bat-ball-and-wicket.jpg"/></div>
