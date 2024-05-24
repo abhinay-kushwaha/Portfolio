@@ -9,6 +9,10 @@ const Projects = ()=>{
      </Marquee>
   </div>
 <div className="flex flex-wrap justify-evenly items-center ">
+  <div data-aos="fade-right" className="flex flex-col  justify-start items-center    gap-10 w-80 h-96 overflow-y-scroll p-8 m-5 shadow-2xl ">
+  <div><img className="hover:scale-105 w-60 sm:w-96" src="https://savvycomsoftware.com/wp-content/uploads/2024/03/what-is-a-student-management-system-3.png"/></div>
+   <div className="hover:scale-105 "><h1 className="font-bold text-2xl">Student  management system</h1><br/><p>A Student Management System (SMS) is a software application or a web-based platform designed to streamline the administrative tasks and record-keeping processes in educational institutions. It is commonly used by schools, colleges, universities, and other educational organizations to manage student data efficiently. </p></div>
+</div>
 <div data-aos="fade-right" className=" flex flex-col justify-start items-center  gap-5 w-80 h-96 overflow-y-scroll   p-8 m-5 shadow-2xl ">
   <div className=""><img className="hover:scale-105 w-60 sm:w-96" src="https://images.ctfassets.net/pdf29us7flmy/7pn6wiySB3JP9qQzE8Ire/260146de3617e8b2917cce73264ca8ec/enterprise-resource-planning-system.png?w=720&q=100&fm=jpg"/></div>
   <div className="hover:scale-105 p-2 "><h1 className="font-bold text-2xl">ERP management system</h1><br/><p className="font-bold font-mono">Using React & Tailwind CSS</p> 
