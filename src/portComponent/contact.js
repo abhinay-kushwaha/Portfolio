@@ -19,7 +19,7 @@ const Contact = ()=>{
        <IoCallSharp className=" animate-bounce "/><br/>
        +91 958 498 7950 <br/><br/>
        <MdEmail className=" animate-ping "/><br/>
-       abhiarkiti@gmail.com
+       abhinayarkbi@gmail.com
        </div>
     </div>
    </div>

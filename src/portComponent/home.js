@@ -3,7 +3,14 @@ import ak from "../assets/ak.jpeg"
 import TextAppear from './textAppear.js';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import { useLocation } from "react-router-dom";
 const Home =() => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   useEffect(() => {
     AOS.init();
 }, []);
@@ -26,11 +33,11 @@ const Home =() => {
     </div>
       </section>
       <section style={{backgroundImage: "url('') "  , }} className=" w-  h-full p-3">
-       <div className=" sm:m-4 flex flex-col sm:flex-row justify-between items-center  rounded  p-2 ">
-       <div data-aos="fade-right" className="shadow-2xl w-[50%] flex justify-center items-center m-5">
+       <div className=" sm:m-4 flex flex-col sm:flex-row justify-between items-center h-full rounded  p-2 ">
+       <div data-aos="fade-right" className=" w-[50%] flex justify-center items-center m-5">
           <img src="https://cdn3d.iconscout.com/3d/premium/thumb/freelancer-working-on-website-development-4637846-3864092.png" className="rounded w-80" />
         </div>
-        <div data-aos="fade-left" className="p-5  m-5 shadow-2xl  font-bold font-serif sm:text-2xl rounded hover:scale-105   ">
+        <div data-aos="fade-left" className="p-5  m-5 border-2 h-full  font-bold font-serif sm:text-2xl rounded hover:scale-105   ">
          <p className=""> Passion is not about doing something big.<br/> Passion is doing small things with 100%. </p>
         </div>
        </div>

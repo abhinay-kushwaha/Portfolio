@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Marquee from "react-fast-marquee";
+import { useLocation } from "react-router-dom";
 
 const Projects = ()=>{
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   return(
 <div style={{backgroundImage: "url('https://wallpaperaccess.com/full/5651978.png') "  ,backgroundSize:"cover" ,backgroundAttachment:"fixed" }} className="font-serif text-[#113744]  space-y-4 ">
   <div className="p-2">

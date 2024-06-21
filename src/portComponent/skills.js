@@ -6,7 +6,13 @@ import { RiReactjsLine } from "react-icons/ri";
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import { useLocation } from "react-router-dom";
 const Skills =()=>{
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   useEffect(() => {
     AOS.init();
 }, []);
